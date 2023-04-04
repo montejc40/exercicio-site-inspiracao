@@ -1,0 +1,71 @@
+body {
+    background-color:#0606e6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+ }
+ 
+ header{
+    
+     color: #170379;
+     background-image: url(../IMG/LITRO\ DE\ LUZ.jpg);
+     height: 150vh;
+     width: 188vh;
+     display:flex;
+     flex-direction:auto;
+     padding: 30px;
+     background-size:cover
+    
+     
+     
+ }
+ 
+ nav{
+     display: flex;
+     justify-content: center;
+     padding:top right bottom left
+     
+    
+ }
+
+ button{
+    background-color: rgb(51, 3, 161);
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    font-size: 14pt;
+    padding: 5px;
+    
+ }
+ 
+ nav a{
+     color: #f2f1f5;
+     text-decoration: none;
+     margin: 50px;
+ }
+ 
+ nav a:hover{ 
+     background-color:#170379;
+ }
+ 
+ section{
+    color: #f2f1f5;
+    display: grid;
+
+}
+ 
+.formulario{
+    color: white;
+}
+.dados{
+    color: white;
+}
+
+/*FOOTER*/
+
+.redes-sociais{
+    background-image:cross-fade();
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
